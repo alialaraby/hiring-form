@@ -1,0 +1,5 @@
+{
+    "name": "Hiring-Form App - Development",
+    "db_connectionString": "mongodb://localhost:27017/hiringform",
+    "auth_key": ""
+}
