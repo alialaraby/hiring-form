@@ -4,8 +4,6 @@ const app = express();
 const debug = require('debug')('app:all'); // condotional log, choose to show these log or not from env
 require('dotenv').config(); // to read vars from .env file
 const path = require('path')
-app.use(express.static(path.join(__dirname, 'public')));
-console.log(path.join(__dirname, 'public'));
 process.on('unhandledRejection', (ex) => { throw ex });
 require('./startup/cors')(app);
 require('./startup/config')(app, debug);

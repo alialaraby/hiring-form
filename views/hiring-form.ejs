@@ -24,8 +24,8 @@
                               </div>
                         <% }) %>
                     <% } %>
-            
-                    <form class="w-100" action="/hiringform" method="POST" novalidate>
+
+                    <form class="w-100" action="/hiringform" method="POST" enctype="multipart/form-data">
                         <div class="form-group mb-3">
                             <label for="position" class="form-label">Choose Position <span class="text-danger font-weight-bold">*</span></label>
                             <select class="form-select form-control" aria-label="Default select example" name="position" id="position">

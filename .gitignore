@@ -105,3 +105,6 @@ dist
 
 #attachments folders
 attachment
+
+#vscode node.js debugger
+/.vscode
