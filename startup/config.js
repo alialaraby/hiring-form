@@ -12,7 +12,7 @@ module.exports = (app, debug) => {
     //app initial configs
     debug('initializing app configs ...');
     app.use(express.json()); // to read request body as json object
-    app.use(express.static(module.parent.path + '/public'));
+    // app.use(express.static(module.parent.path + '/public'));
     app.use(helmet({
         contentSecurityPolicy: false,
     })); // to provide more security of requests headers
